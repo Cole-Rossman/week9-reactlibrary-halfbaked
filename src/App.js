@@ -12,6 +12,9 @@ function App() {
       <main className="container">
         <h1>Library Catalog</h1>
         <Switch>
+          <Route exact path="/">
+            <BookList />
+          </Route>
           <Route exact path="/books">
             <BookList />
           </Route>
